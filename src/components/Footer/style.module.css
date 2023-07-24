@@ -1,0 +1,28 @@
+.footer{
+    margin-top: 14rem;
+    
+}
+.footerContainer{
+    border-top: 2px solid var(--color-white);
+    border-bottom: 2px solid var(--color-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+}
+.title{
+    font-weight: 800;
+    font-size: 40px;
+
+}
+.divContact{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+.ul{
+    display: flex;
+    gap: 1rem;
+
+}

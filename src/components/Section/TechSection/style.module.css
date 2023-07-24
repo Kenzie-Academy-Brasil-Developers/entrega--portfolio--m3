@@ -1,0 +1,20 @@
+.section{
+    margin-top: 4rem;
+}
+.title{
+    font-weight: 800;
+    font-size: 40px;
+
+}
+.techContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+}   
+.ul{
+    display: flex;
+    flex-wrap: wrap;
+    height: 16vh;
+    gap: 1rem;
+}

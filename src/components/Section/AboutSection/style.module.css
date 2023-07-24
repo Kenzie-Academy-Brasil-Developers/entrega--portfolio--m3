@@ -1,0 +1,18 @@
+.title{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+}
+.section{
+    margin-top: 15vh;
+    height: 18vh;
+
+}
+.content{
+    max-width: 70%;
+}
+.aboutContainer{
+    display: flex;
+    gap: 3rem;
+    justify-content: space-between;
+}

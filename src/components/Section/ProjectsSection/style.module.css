@@ -1,0 +1,20 @@
+.projectContainer{
+    height: 34vh;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.title{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+
+}
+.ul{
+    height: 38vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}

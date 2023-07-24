@@ -1,0 +1,15 @@
+.li{
+    width: 30%;
+    border: 1px solid var(--color-white);
+    height: 30%;
+    display: flex;
+    gap: 2rem;
+    padding: 2rem 2rem;
+    border-radius: 25px;
+    align-items: center;
+}
+.span{
+    font-weight: 800;
+    font-size: 22px;
+    
+}
