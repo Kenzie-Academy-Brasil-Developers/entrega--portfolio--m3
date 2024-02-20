@@ -1,4 +1,4 @@
-import Banner from "../../../assets/banner-img.png";
+import eu from "../../../assets/eu.png";
 import { username } from "../../../data/user";
 import style from "./style.module.css"
 function BannerSection (){
@@ -8,11 +8,12 @@ function BannerSection (){
                 <div className={style.bannerContainer}>
                     <div className={style.bannerTitle}>
                         <p className={style.user}>{username}</p>    
-                        <h1 className={style.title}>Bem vindo ao meu portfólio</h1>
-                        <p>Uma frase interessante sobre mim</p>
+                        <div className={style.animatedtext}>
+                            Bem vindo ao meu <span></span>
+                        </div>
                         <button className="button-primary">Saiba mais</button>
                     </div>
-                    <img src={Banner} alt="banner"  />
+                    <img className={style.img} src={eu} alt="foto"  />
                 </div>
             </div>
         </section>

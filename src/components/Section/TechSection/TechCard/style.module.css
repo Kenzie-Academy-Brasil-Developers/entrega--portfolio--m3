@@ -1,5 +1,5 @@
 .li{
-    width: 30%;
+    width: 32.4%;
     border: 1px solid var(--color-white);
     height: 30%;
     display: flex;
@@ -13,3 +13,4 @@
     font-size: 22px;
     
 }
+.img{width: 33px;}

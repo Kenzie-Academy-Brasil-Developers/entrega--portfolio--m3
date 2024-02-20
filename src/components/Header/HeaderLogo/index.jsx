@@ -1,9 +1,10 @@
-import portfolio from "../../../assets/portfolio.png"
-
+import logo from "../../../assets/logo.png"
+import style from "./style.module.css"
 function HeaderLogo (){
     return(
         <div>
-            <img src={portfolio} alt="Logo" />
+            <img className={style.logo} src={logo
+            } alt="Logo" />
         </div>
     )
 }
