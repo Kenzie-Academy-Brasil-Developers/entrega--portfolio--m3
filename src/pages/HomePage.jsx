@@ -4,8 +4,8 @@ import AboutSection from "../components/Section/AboutSection";
 import BannerSection from "../components/Section/BannerSection";
 import ProjectSection from "../components/Section/ProjectsSection";
 import TechSection from "../components/Section/TechSection";
+import style from "./style.module.css"
 import "./style.css";
-
 function HomePage() {
   return (
     <div className="page__container">
@@ -25,12 +25,14 @@ function HomePage() {
           </ul>
         </div>
       </div>
-      <DefaultTemplate>
-        <BannerSection />
-        <AboutSection />
-        <TechSection />
-        <ProjectSection />
-      </DefaultTemplate>
+        <DefaultTemplate>
+          <div className={style.containerApp}>
+            <BannerSection />
+            <AboutSection />
+            <TechSection />
+            <ProjectSection />
+          </div>
+        </DefaultTemplate>
     </div>
   );
 }

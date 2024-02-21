@@ -3,8 +3,7 @@ import { username } from "../../../data/user";
 import style from "./style.module.css"
 function BannerSection (){
     return(
-        <section>
-            <div className="container">
+        <section className="container">
                 <div className={style.bannerContainer}>
                     <div className={style.bannerTitle}>
                         <p className={style.user}>{username}</p>    
@@ -13,9 +12,15 @@ function BannerSection (){
                         </div>
                         <button className="button-primary">Saiba mais</button>
                     </div>
-                    <img className={style.img} src={eu} alt="foto"  />
+                    <div className={style.imgContainer}>
+                        <div className={style.divImg}>
+                            <div className={style.glow}>
+                                <img className={style.img} src={eu} alt="foto"  />
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
         </section>
     )
 }

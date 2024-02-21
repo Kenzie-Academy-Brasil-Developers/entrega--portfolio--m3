@@ -9,8 +9,10 @@
 .techContainer{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
+    align-items: center;
     height: 45vh;
+
     
 }   
 .ul{
