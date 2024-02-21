@@ -1,5 +1,5 @@
 .projectContainer{
-    height: 34vh;
+    height: 40%;
     margin-top: 4rem;
     display: flex;
     flex-direction: column;
@@ -14,7 +14,7 @@
 
 }
 .ul{
-    height: 38vh;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;

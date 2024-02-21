@@ -6,7 +6,6 @@ import style from "./style.module.css"
 function Footer () {
     return(
         <footer className={style.footer}>
-            <div className="container">
                 <div className={style.footerContainer}>
                     <div className={style.divContact}>
                         <h3 className={style.title}>Contato</h3>
@@ -20,7 +19,6 @@ function Footer () {
                         <p className="p">{`Todos os direitos reservados - ${user}`}</p>
                     </div>
                 </div>
-            </div>
         </footer>
     )
 }

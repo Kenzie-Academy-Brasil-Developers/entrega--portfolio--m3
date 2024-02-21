@@ -1,9 +1,9 @@
 import style from "./style.module.css";
 function AboutSection() {
   return (
-    <section className={style.section} id="aboutSection">
+    <section className={style.section} >
       <div className="container">
-        <div className={style.aboutContainer}>
+        <div className={style.aboutContainer} id="aboutSection">
           <h3 className={style.title}>Sobre mim</h3>
           <div className={style.content}>
             <p>

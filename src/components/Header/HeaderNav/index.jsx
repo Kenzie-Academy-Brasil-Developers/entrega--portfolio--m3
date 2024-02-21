@@ -2,9 +2,9 @@ import style from "./nav.module.css"
 function HeaderNav ({type}){
     return(
         <div className={style.navContainer}>
-            <button type = {type} className={style.buttons}>Sobre</button>
-            <button type = {type} className={style.buttons}>Stack</button>
-            <button type = {type} className={style.buttons}>Projetos</button>
+            <a className={style.buttons} href="#aboutSection">Sobre</a>
+            <a className={style.buttons} href="#techsSection">Stack</a>
+            <a className={style.buttons} href="#projectsSection">Projects</a>
         </div>
     )
 }

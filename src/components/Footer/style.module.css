@@ -1,5 +1,5 @@
 .footer{
-    margin-top: 14rem;
+    margin-top: 25%;
     
 }
 .footerContainer{
@@ -9,6 +9,7 @@
     justify-content: space-between;
     align-items: center;
     height: 20vh;
+    padding: 6rem;
 }
 .title{
     font-weight: 800;

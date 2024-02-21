@@ -5,7 +5,7 @@ function TechSection (){
     return(
         <section>
             <div className="container">
-                <div className={style.techContainer}>
+                <div className={style.techContainer} id="techsSection">
                     <h3 className={style.title}>Tecnologias</h3>
                     <div>
                         <ul className={style.ul}>
