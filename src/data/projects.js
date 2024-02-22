@@ -2,8 +2,8 @@ import gitIcon from "../assets/git-icon.png"
 export const projects = [
   {
     id: 0,
-    name: "Projeto 1",
-    description: "Atividade Props Card Pessoas",
+    name: "Jobs",
+    description: "Desenvolvimento de um app que conecta empresas com profissionais, permitindo que as empresas postem vagas e os candidatos criem seus perfis para se candidatarem a oportunidades de emprego. ",
     img: gitIcon
   },
   {

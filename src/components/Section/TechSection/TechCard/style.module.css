@@ -1,9 +1,9 @@
 .li{
-    width: 32.4%;
+    width: 23.8%;
     border: 2px solid var(--color-primary--hover);
-    height: 30%;
+    height: 2%;
     display: flex;
-    gap: 2rem;
+    gap: 1.4rem;
     padding: 2rem 2rem;
     border-radius: 25px;
     align-items: center;
@@ -20,7 +20,7 @@
     left: calc(-1 * 3px);
     height: calc(100% + 3px * 2);
     width: calc(100% + 3px * 2);
-    background: linear-gradient(60deg, #ff8000, #ff6700, #fb7216, #d17b0c, #f29a17, #ffb701, #f9b30f, #ffbb00);
+    background: linear-gradient(60deg, #ff2600, #ff6700, #fb7216, #d17b0c, #f29a17, #ffb701, #f9b30f, #ffbb00);
     border-radius: 25px;
     z-index: -1 ;
     animation: animatedgradient 3s ease alternate infinite;
@@ -34,7 +34,6 @@
   }
 .span{
     font-weight: 800;
-    font-size: 22px;
-    
+    font-size: 130%;
 }
-.img{width: 33px;}
+.img{width: 16%;}
