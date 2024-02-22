@@ -10,7 +10,7 @@ function BannerSection (){
                         <div className={style.animatedtext}>
                             Bem vindo ao meu <span></span>
                         </div>
-                        <button className="button-primary">Saiba mais</button>
+                        <button className={style.btnprimary}><a href="#aboutSection" className={style.btn}>Saiba mais</a></button>
                     </div>
                     <div className={style.imgContainer}>
                         <div className={style.divImg}>
