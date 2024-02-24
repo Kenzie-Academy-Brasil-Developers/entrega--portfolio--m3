@@ -35,3 +35,9 @@ body{
     
 }
 
+.swiper-button-next{
+    color: var(--color-primary);
+}
+.swiper-button-prev{
+    color: var(--color-primary);
+}

@@ -11,6 +11,7 @@
     z-index: 1;
     overflow: hidden;
     border-radius: 12px;
+    cursor: pointer;
 
 }
 

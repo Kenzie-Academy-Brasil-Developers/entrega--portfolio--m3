@@ -26,8 +26,8 @@ function HomePage() {
         </div>
       </div>
         <DefaultTemplate>
-          <div className={style.containerApp}>
             <BannerSection />
+          <div className={style.containerApp}>
             <AboutSection />
             <TechSection />
             <ProjectSection />

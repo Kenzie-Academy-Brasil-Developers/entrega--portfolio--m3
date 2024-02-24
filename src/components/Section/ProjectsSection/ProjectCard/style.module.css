@@ -1,38 +1,67 @@
-.li{
-    width: 49%;
-    border: 1px solid var(--color-white);
-    height: 60%;
-    display: flex;
-    gap: 3rem;
-    padding: 2rem 2rem;
-    border-radius: 25px;
-    align-items: flex-start;
-    display: flex;
-    background-color: rgba(0,0,0, 0.5);
-    flex-direction: column;
+.li {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
 }
-  
-.divInfo{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+.imgProject {
+  height: 50%;
 }
-.divHeader{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+.footerCard {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 0px 0px 12px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
-.img{
-    position: relative;
-    bottom: 22px;
-    height: 38px;
-    width: 37px;
+.btn {
+  color: white;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 100%;
+  background: #fc5404;
+  text-decoration: none;
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 12px;
+  cursor: pointer;
 }
-.button{
-    color: var(--color-primary);
-    font-weight: 700;
-    font-size: 1rem ;
+
+.btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: var(--color-primary--hover);
+  z-index: -1;
+  transition: 0.5s;
 }
-.button:hover{
-    color: var(--color-secondary);
+.btn:hover::before {
+  width: 100%;
+}
+.btnprimary {
+  color: var(--color-white);
+  background-color: #fc5404;
+  height: 39px;
+  border-radius: 12px;
+  max-width: 100px;
+}
+.divButtonsFooter {
+  display: flex;
+  gap: 5rem;
+  width: 100%;
+  justify-content: center;
 }
